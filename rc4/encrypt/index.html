@@ -1,44 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="content-language" content="en"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>RC4 Encryption - Online Tools</title><base href="/online-tools/"><meta name="keywords" content="RC4,ARC4,Encrypt,hex,base64,passphrase,PBKDF2,EvpKDF,drop"><meta name="author" content="emn178"><meta name="copyright" content="emn178"><meta name="description" content="This online tool helps you encrypt messages using RC4. It supports PBKDF2 or EvpKDF, with customizable salt, iteration, and hash settings. It also supports dropping initial keystream bytes."><meta property="og:type" content="website"><meta property="og:title" content="RC4 Encryption"><meta property="og:url" content="https://geraudloup.github.io/online-tools/rc4/encrypt/"><meta property="og:site_name" content="Online Tools"><meta property="og:description" content="This online tool helps you encrypt messages using RC4. It supports PBKDF2 or EvpKDF, with customizable salt, iteration, and hash settings. It also supports dropping initial keystream bytes."><meta property="og:locale" content="en"><meta property="og:image" content="https://geraudloup.github.io/online-tools/images/logo.svg"><meta property="article:author" content="emn178"><meta property="article:tag" content="RC4,ARC4,Encrypt,hex,base64,passphrase,PBKDF2,EvpKDF,drop"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://geraudloup.github.io/online-tools/images/logo.svg"><link rel="canonical" href="https://geraudloup.github.io/online-tools/rc4/encrypt/"><link rel="icon" href="images/logo.svg"><script>var delayScripts = [];
 var waitLoadCount = 0;
-if (location.hostname != 'localhost') {
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-WT6N5R6W6Z');
-
-  (function () {
-    var gaUrl = 'https://www.googletagmanager.com/gtag/js?id=G-WT6N5R6W6Z';
-
-    function initGTMOnEvent(e) {
-      document.removeEventListener(event.type, initGTMOnEvent);
-      initGTM();
-    }
-
-    function initGTM() {
-      if (window.gtmDidInit) {
-        return;
-      }
-      window.gtmDidInit = true;
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = gaUrl;
-      document.head.appendChild(script);
-    }
-
-    if (document.addEventListener) {
-      document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(initGTM, 3500);
-      });
-      document.addEventListener('scroll', initGTMOnEvent);
-      document.addEventListener('mousemove', initGTMOnEvent);
-      document.addEventListener('touchstart', initGTMOnEvent);
-    } else {
-      delayScripts.push({
-        src: gaUrl
-      });
-    }
-  })();
-}
 
 if (localStorage.getItem('DARK') === '1') {
   document.documentElement.classList.add('dark-theme')
